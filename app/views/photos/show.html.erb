@@ -1,0 +1,15 @@
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="thumbnail">
+        <%= image_tag @photo.file_location.url, size: "400x400", class: "img-thumbnail" %>
+        <div class="caption">
+          <p><%= @photo.description %></p>
+        </div>
+    </div>
+  </div>
+
+
+ <p><%= link_to "Back to index", photos_path %></p>
+
+ 
